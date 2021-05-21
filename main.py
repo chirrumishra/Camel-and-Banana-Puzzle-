@@ -22,6 +22,7 @@ for i in range(distance):
 #Here lose is decreased as in last trip camel will not go back.
     lose -= 11
     start = total - lose
-    if start == 0:#Condition to check whether it is possible to take a single banana or not.
+    if start == 0:
+        #Condition to check whether it is possible to take a single banana or not.
         break
 print(start)
